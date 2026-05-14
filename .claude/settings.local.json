@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item *)",
+      "PowerShell(npm install *)",
+      "PowerShell(npm run *)",
+      "PowerShell(npm view *)"
+    ]
+  }
+}
