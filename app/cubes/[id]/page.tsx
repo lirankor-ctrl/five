@@ -8,8 +8,11 @@ import { cubes, getCube } from "@/data/cubes";
 
 type Params = { params: { id: string } };
 
+/** Cubes that have their own static routes — exclude from the placeholder. */
+const OWN_ROUTE = new Set(["solo", "manifesto", "tipping-point"]);
+
 export function generateStaticParams() {
-  return cubes.map((c) => ({ id: c.id }));
+  return cubes.filter((c) => !OWN_ROUTE.has(c.id)).map((c) => ({ id: c.id }));
 }
 
 export function generateMetadata({ params }: Params) {

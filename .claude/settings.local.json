@@ -4,7 +4,16 @@
       "PowerShell(New-Item *)",
       "PowerShell(npm install *)",
       "PowerShell(npm run *)",
-      "PowerShell(npm view *)"
+      "PowerShell(npm view *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o NUL -w \"%{http_code}\\\\n\" http://localhost:3000/cubes/solo)",
+      "Bash(curl -s http://localhost:3000/cubes/solo)",
+      "Bash(findstr /C:\"five solo\" /C:\"What would you like to return to\")",
+      "Bash(taskkill /F /FI \"PID gt 0\" /IM node.exe)",
+      "PowerShell(Get-Process *)",
+      "Bash(curl -s http://localhost:3000/cubes/manifesto)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/cubes/tipping-point)",
+      "Bash(curl -s http://localhost:3000/cubes/tipping-point)"
     ]
   }
 }

@@ -37,16 +37,16 @@ export const cubes: Cube[] = [
   {
     id: "tipping-point",
     name: "five tipping point",
-    shortDescription: "Where one small turn changes the direction.",
+    shortDescription: "Less chaos. Same life.",
     emotionalPurpose:
-      "Some moments are quietly decisive. This cube helps you notice them and act with intention before they pass.",
+      "A calm place to manage the negative — by reducing the chaos, not by demanding perfection.",
     description:
-      "five tipping point is for the small decisions that compound — the email you almost didn't send, the conversation you almost avoided.",
-    status: "coming-soon",
+      "five tipping point turns an uncontrolled pattern into a chosen, smaller one. You name the pattern, set a boundary you can actually live with, and notice the days you stayed inside it. There is no failure here — only direction.",
+    status: "start",
     suggestedActions: [
-      "Name one decision you've been postponing.",
-      "Take the smallest first step.",
-      "Write the message you've been delaying.",
+      "Name one pattern, gently.",
+      "Set a boundary you can live with.",
+      "Check in for today.",
     ],
     accent: { glyph: "/" },
   },

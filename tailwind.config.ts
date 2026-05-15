@@ -18,9 +18,27 @@ const config: Config = {
         },
         line: "#E8E7E2",
         accent: "#1F1F1D",
+        // Warm, sparingly-used palette for the tipping-point cube.
+        // Deliberately muted — never red, never alarming.
+        ember: {
+          50: "#FBF5EB",
+          100: "#F4EAD6",
+          200: "#E8D7B4",
+          300: "#D9BE89",
+          500: "#B4884D",
+          700: "#7A5821",
+        },
       },
       fontFamily: {
         sans: ["var(--font-inter)", "ui-sans-serif", "system-ui", "sans-serif"],
+        serif: [
+          "var(--font-serif)",
+          "ui-serif",
+          "Georgia",
+          "Cambria",
+          "Times New Roman",
+          "serif",
+        ],
       },
       fontWeight: {
         thin: "200",
