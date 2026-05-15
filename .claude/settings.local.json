@@ -18,7 +18,14 @@
       "Bash(curl -s http://localhost:3000/cubes/content)",
       "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:3000__TRACKED_VAR__)",
       "Bash(curl -s http://localhost:3000/cubes/organizations)",
-      "Bash(curl -s http://localhost:3000/cubes/creators)"
+      "Bash(curl -s http://localhost:3000/cubes/creators)",
+      "Bash(curl -s http://localhost:3000/cubes/family)",
+      "Bash(curl -s http://localhost:3000/cubes/live-event)",
+      "Bash(curl -s http://localhost:3000/cubes/community/river)",
+      "Bash(curl -s http://localhost:3000/cubes/project)",
+      "Bash(curl -s http://localhost:3000/cubes/your-own)",
+      "Bash(curl -s http://localhost:3000/cubes/reflection)",
+      "Bash(curl -s http://localhost:3000/cubes/reflection/report)"
     ]
   }
 }

@@ -16,6 +16,12 @@ const OWN_ROUTE = new Set([
   "content",
   "organizations",
   "creators",
+  "family",
+  "live-event",
+  "community",
+  "project",
+  "your-own",
+  "reflection",
 ]);
 
 export function generateStaticParams() {

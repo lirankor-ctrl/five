@@ -28,6 +28,16 @@ const config: Config = {
           500: "#B4884D",
           700: "#7A5821",
         },
+        // Warm, soft, hearth palette for the family cube.
+        // Deliberately pinker than ember — emotionally distinct.
+        hearth: {
+          50: "#FBF3F1",
+          100: "#F4E5DE",
+          200: "#E7CFC0",
+          300: "#D7AE94",
+          500: "#B98770",
+          700: "#7E523B",
+        },
       },
       fontFamily: {
         sans: ["var(--font-inter)", "ui-sans-serif", "system-ui", "sans-serif"],

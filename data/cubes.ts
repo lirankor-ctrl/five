@@ -101,82 +101,98 @@ export const cubes: Cube[] = [
   {
     id: "family",
     name: "five family",
-    shortDescription: "Return to the people who matter.",
+    shortDescription: "Five minutes back to each other.",
     emotionalPurpose:
-      "Family is often the first thing the day pushes aside. This cube is a soft reminder to return — for five minutes, with full attention.",
+      "A soft layer underneath the day. Not parenting pressure — connection. Small repeated five-minute moments that quietly make a home feel like home again.",
     description:
-      "five family is not about more time. It is about more presence in the time you already share.",
+      "five family supports the small repeated moments families are actually built from. Eight gentle worlds — talk, read, play, learn, move, values, couple, school — a soft daily prompt, a quiet journal of moments, and observations that never make you feel like you failed at parenting on a Wednesday.",
     status: "start",
     suggestedActions: [
-      "Sit with someone for five minutes, phones away.",
-      "Send one honest message to a family member.",
-      "Ask one question and really listen.",
+      "Open the manifesto.",
+      "Begin the first five.",
+      "Read the journal.",
     ],
     accent: { glyph: "✿" },
   },
   {
     id: "live-event",
     name: "five live event",
-    shortDescription: "Five minutes of full attention, together.",
+    shortDescription: "Light social momentum.",
     emotionalPurpose:
-      "A shared, time-bound moment with others — quiet, present, real. The opposite of an endless livestream.",
+      "Momentum that moves through people — without the noise of a social platform. People doing their Five together, briefly, quietly, anonymously if they want.",
     description:
-      "five live event is for small synchronous moments. A group breath, a shared minute of writing, a brief check-in across cities.",
-    status: "coming-soon",
+      "Not a feed. Not a webinar. Not a community to belong to. Small five-minute rooms where humans do their Five together: silent together, guided, check-in, or a momentum sprint. No likes, no follower counts, no infinite scroll. Default no cameras, default no recording. End every live with one quiet confirmation — I did my Five.",
+    status: "start",
     suggestedActions: [
-      "Join a five-minute shared pause.",
-      "Host a small live moment with friends.",
-      "Be present without performing.",
+      "Open the manifesto.",
+      "See who is on right now.",
+      "Host a small room.",
     ],
     accent: { glyph: "◉" },
   },
   {
     id: "community",
     name: "five community",
-    shortDescription: "Small drops shared become a river.",
+    shortDescription: "Quietly, with other humans.",
     emotionalPurpose:
-      "A gentle way to belong — not a social network, not a feed. A quiet shared space for people who value intentional small moments.",
+      "Not Facebook groups. Not Discord. Not a feed. A low-friction community space for people quietly building rivers of meaning inside busy lives.",
     description:
-      "five community is not for engagement metrics. It is for the felt sense that you are not doing this alone.",
-    status: "coming-soon",
+      "five community is built around small momentum, not popularity. Communities by interest, identity, or quiet multipotentiality. Drop updates · momentum threads · human journals · curated paths. A river map shows where people are flowing. No likes. No follower counts. No flex culture. Mentors of momentum, not influencers.",
+    status: "start",
     suggestedActions: [
-      "Read one thing someone else wrote, without reacting.",
-      "Leave one kind, specific note.",
-      "Notice that you are not alone in this.",
+      "Read the manifesto.",
+      "Find a compatible community.",
+      "See the river map.",
     ],
     accent: { glyph: "∞" },
   },
   {
     id: "project",
     name: "five project",
-    shortDescription: "One step at a time, with intention.",
+    shortDescription: "Where the dream becomes a rhythm.",
     emotionalPurpose:
-      "For the projects that matter but never seem to move. This cube helps you take one small, real step today.",
+      "For the dream you have quietly carried for years. The book. The startup. The move abroad. Five Project turns dormant dreams into living momentum — five minutes at a time, inside your life.",
     description:
-      "five project is not a task manager. It is a way to keep a meaningful project alive through small intentional returns.",
-    status: "explore",
+      "Not a task manager. A calm studio for keeping a meaningful project alive between busy weeks. Three layers — vision, milestones, five-actions. Templates for real beginnings. Dream-to-Plan for hazy ideas. Project Rescue for abandoned drafts. An I'm Stuck button that reduces the step instead of demanding more. Sprints, pivots, a companion that protects the momentum.",
+    status: "start",
     suggestedActions: [
-      "Name the next smallest step.",
-      "Spend five minutes on it. Stop on time.",
-      "Write one note for tomorrow's you.",
+      "Open the manifesto.",
+      "Begin from a template.",
+      "Rescue an abandoned project.",
     ],
     accent: { glyph: "▢" },
   },
   {
     id: "reflection",
     name: "five reflection",
-    shortDescription: "A respectful mirror.",
+    shortDescription: "The river that gives meaning to the drops.",
     emotionalPurpose:
-      "A quiet space to notice what is working, what isn't, and what wants attention — without scoring, without judgement.",
+      "The master cube. Not a habit tracker. Not analytics. A weekly narrative document about how you are moving across the cubes — written calmly, like a letter from someone who is paying attention.",
     description:
-      "five reflection is not analytics. It is a calm mirror you can return to whenever you need to see yourself clearly.",
+      "five reflection reads every other cube's activity and produces a calm, editorial report: opening reflection, momentum snapshot, SWOT reading, cross-river opportunities, emotional intelligence, dialogue, closing. The river timeline shows where presence has lived in your life across 26 weeks. The deepest difference: it doesn't ask how much you did — it asks what is happening to you inside the movement.",
     status: "start",
     suggestedActions: [
-      "Notice one thing that is working.",
-      "Name one thing you'd like to adjust.",
-      "Acknowledge one drop you took today.",
+      "Read the manifesto.",
+      "Generate this week's report.",
+      "See the river timeline.",
     ],
     accent: { glyph: "◐" },
+  },
+  {
+    id: "your-own",
+    name: "five your own cube",
+    shortDescription: "The system evolves around the human being.",
+    emotionalPurpose:
+      "The meta cube. If the cube you want does not exist yet — build it. Your rituals, your terminology, your success philosophy. five your own cube turns users into co-creators of five.",
+    description:
+      "Design your own momentum system: name, purpose, action logic, success philosophy. Eight starting templates. AI helpers along the way. Private, community, or public. The best community cubes evolve into official five cubes — recognised across the platform.",
+    status: "start",
+    suggestedActions: [
+      "Open the manifesto.",
+      "Browse the marketplace.",
+      "Build your own cube.",
+    ],
+    accent: { glyph: "✻" },
   },
 ];
 
