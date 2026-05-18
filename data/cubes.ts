@@ -196,6 +196,12 @@ export const cubes: Cube[] = [
   },
 ];
 
+const HIDDEN_FROM_GRID = new Set(["manifesto", "organizations"]);
+
+export const visibleCubes: Cube[] = cubes.filter(
+  (c) => !HIDDEN_FROM_GRID.has(c.id),
+);
+
 export function getCube(id: string): Cube | undefined {
   return cubes.find((c) => c.id === id);
 }

@@ -25,7 +25,22 @@
       "Bash(curl -s http://localhost:3000/cubes/project)",
       "Bash(curl -s http://localhost:3000/cubes/your-own)",
       "Bash(curl -s http://localhost:3000/cubes/reflection)",
-      "Bash(curl -s http://localhost:3000/cubes/reflection/report)"
+      "Bash(curl -s http://localhost:3000/cubes/reflection/report)",
+      "Bash(git checkout *)",
+      "Bash(curl -s -o /dev/null -w \"/ %{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"/home %{http_code}\\\\n\" http://localhost:3000/home)",
+      "Bash(curl -s -o /dev/null -w \"/cubes %{http_code}\\\\n\" http://localhost:3000/cubes)",
+      "Bash(curl -s -o /dev/null -w \"/cubes/manifesto %{http_code}\\\\n\" http://localhost:3000/cubes/manifesto)",
+      "Bash(curl -s -o /dev/null -w \"/cubes/organizations %{http_code}\\\\n\" http://localhost:3000/cubes/organizations)",
+      "Bash(curl -s http://localhost:3000/home)",
+      "Bash(curl -s http://localhost:3000/cubes)",
+      "Read(//tmp/**)",
+      "Bash(curl -s -o /tmp/home_new.html -w \"HTTP %{http_code}\\\\n\" http://localhost:3001/home)",
+      "Bash(curl -s -o /dev/null -w \"/ %{http_code}\\\\n\" http://localhost:3001/)",
+      "Bash(curl -s -o /dev/null -w \"/home %{http_code}\\\\n\" http://localhost:3001/home)",
+      "Bash(curl -s -o /dev/null -w \"/cubes %{http_code}\\\\n\" http://localhost:3001/cubes)",
+      "Bash(curl -s -o /dev/null -w \"/cubes/solo %{http_code}\\\\n\" http://localhost:3001/cubes/solo)",
+      "Bash(curl -s -o /dev/null -w \"/cubes/manifesto %{http_code}\\\\n\" http://localhost:3001/cubes/manifesto)"
     ]
   }
 }

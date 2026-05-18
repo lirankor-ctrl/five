@@ -1,7 +1,7 @@
 import { Container } from "@/components/Container";
 import { CubeCard } from "@/components/CubeCard";
 import { RiverLine } from "@/components/RiverLine";
-import { cubes } from "@/data/cubes";
+import { visibleCubes } from "@/data/cubes";
 
 export const metadata = {
   title: "Cubes — five",
@@ -28,7 +28,7 @@ export default function CubesPage() {
       </header>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {cubes.map((cube) => (
+        {visibleCubes.map((cube) => (
           <CubeCard key={cube.id} cube={cube} />
         ))}
       </div>

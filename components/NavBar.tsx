@@ -9,11 +9,19 @@ const links = [
   { href: "/home", label: "Home" },
   { href: "/cubes", label: "Cubes" },
   { href: "/reflection", label: "Reflection" },
+  { href: "/cubes/manifesto", label: "Manifesto" },
+  { href: "/cubes/organizations", label: "Organizations" },
 ];
 
 export function NavBar() {
   const pathname = usePathname();
   const isLanding = pathname === "/";
+
+  const activeHref = links
+    .filter(
+      (l) => pathname === l.href || pathname.startsWith(`${l.href}/`),
+    )
+    .sort((a, b) => b.href.length - a.href.length)[0]?.href;
 
   return (
     <header
@@ -34,8 +42,7 @@ export function NavBar() {
         {!isLanding && (
           <nav className="flex items-center gap-1">
             {links.map((link) => {
-              const active =
-                pathname === link.href || pathname.startsWith(`${link.href}/`);
+              const active = link.href === activeHref;
               return (
                 <Link
                   key={link.href}
