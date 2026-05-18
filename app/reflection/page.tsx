@@ -3,6 +3,7 @@ import { Container } from "@/components/Container";
 import { Card } from "@/components/Card";
 import { RiverLine } from "@/components/RiverLine";
 import { LinkButton } from "@/components/Button";
+import { ReflectionReports } from "@/components/reflection/ReflectionReports";
 import { swot } from "@/data/reflection";
 
 export const metadata = {
@@ -30,7 +31,22 @@ export default function ReflectionPage() {
         </div>
       </header>
 
-      <section className="mt-12 grid grid-cols-1 gap-4 md:mt-16 md:grid-cols-2">
+      <ReflectionReports />
+
+      <section className="mt-16 max-w-prose md:mt-20">
+        <p className="text-xs font-light uppercase tracking-[0.2em] text-ink-mute">
+          The mirror
+        </p>
+        <h2 className="mt-3 text-balance text-2xl font-light leading-snug tracking-brand text-ink md:text-3xl">
+          Or write it yourself.
+        </h2>
+        <p className="mt-3 text-[15px] leading-relaxed text-ink-soft">
+          Four respectful prompts. Use them alongside a report — or on their
+          own, when you would rather find your own words first.
+        </p>
+      </section>
+
+      <section className="mt-8 grid grid-cols-1 gap-4 md:mt-10 md:grid-cols-2">
         {swot.map((entry) => (
           <Card key={entry.key}>
             <p className="text-xs font-light uppercase tracking-[0.2em] text-ink-mute">
